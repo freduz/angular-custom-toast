@@ -1,0 +1,16 @@
+<div class="overlay">
+  <div class="alert" [ngClass]="loadType()">
+    <div class="header">
+      <h3>Success</h3>
+      <img
+        class="close-btn"
+        alt="svgImg"
+        (click)="close()"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMTYiIGhlaWdodD0iMTYiCnZpZXdCb3g9IjAgMCAxNiAxNiIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cmVjdCB3aWR0aD0iNCIgaGVpZ2h0PSIxNSIgeD0iNiIgeT0iLjUiIGZpbGw9IiNmZTMxNTUiIHRyYW5zZm9ybT0icm90YXRlKDQ1LjAwMSA4IDgpIj48L3JlY3Q+PHJlY3Qgd2lkdGg9IjQiIGhlaWdodD0iMTUiIHg9IjYiIHk9Ii41IiBmaWxsPSIjZmUzMTU1IiB0cmFuc2Zvcm09InJvdGF0ZSgxMzQuOTk5IDggOCkiPjwvcmVjdD48L3N2Zz4="
+      />
+    </div>
+    <div class="content">
+      <p>{{ msg }}</p>
+    </div>
+  </div>
+</div>
